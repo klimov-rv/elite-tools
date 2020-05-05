@@ -134,8 +134,8 @@ var sliderPortfolio = new Swiper('.portfolio__slider', {
     delay: 5000,
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.portfolio__slider .swiper-button-next',
+    prevEl: '.portfolio__slider .swiper-button-prev',
   },
   breakpoints: {
       0: {

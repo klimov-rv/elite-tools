@@ -27,11 +27,11 @@ var swiperMain = new Swiper('.promo-slider-elite', {
     delay: 5000,
   }, 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.promo-slider-elite .swiper-button-next',
+    prevEl: '.promo-slider-elite .swiper-button-prev',
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '.promo-slider-elite .swiper-pagination',
     clickable: true,
   }
 });
@@ -48,8 +48,8 @@ var slider0 = new Swiper('#tab-0', {
   spaceBetween: 20,
   loop: false, 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '#tab-0 .swiper-button-next',
+    prevEl: '#tab-0 .swiper-button-prev',
   },
   breakpoints: {
       0: {
@@ -79,6 +79,10 @@ var slider1 = new Swiper('#tab-1', {
   slidesPerView: 4,
   spaceBetween: 20,
   loop: false,
+  navigation: {
+    nextEl: '#tab-0 .swiper-button-next',
+    prevEl: '#tab-0 .swiper-button-prev',
+  },
   breakpoints: {
       0: {
           slidesPerView: 1,
@@ -107,6 +111,10 @@ var slider2 = new Swiper('#tab-2', {
   slidesPerView: 4,
   spaceBetween: 20,
   loop: false, 
+  navigation: {
+    nextEl: '#tab-0 .swiper-button-next',
+    prevEl: '#tab-0 .swiper-button-prev',
+  },
   breakpoints: {
       0: {
           slidesPerView: 1,
